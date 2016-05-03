@@ -169,7 +169,7 @@ function setupUse(params) {
       .done(showResult)
       .error(function() {
         $loading.hide();
-        showError('Error with link. <br/>Try another link ' +
+        showError('Error with link. <br/>Try another link '
         );
       });
   }
