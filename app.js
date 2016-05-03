@@ -49,13 +49,14 @@ require('./config/express')(app);
 // Create the service wrapper
 var visualRecognition = watson.visual_recognition({
   version: 'v2-beta',
-  username: '<username>',
-  password: '<password>',
+  url: "https://gateway.watsonplatform.net/visual-recognition-beta/api",
+  username: '002882ca-11f3-46ff-8b34-16d06379b298',
+  password: 'nwWTKja6i8r2',
   version_date:'2015-12-02'
 });
 
 var alchemyVision = watson.alchemy_vision({
-  api_key: process.env.ALCHEMY_KEY || '<alchemy-key>'
+  api_key: process.env.ALCHEMY_KEY || '97c84a81f28c77cea624db1c012a821ee540f8fa'
 });
 
 
