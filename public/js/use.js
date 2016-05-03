@@ -169,8 +169,8 @@ function setupUse(params) {
       .done(showResult)
       .error(function() {
         $loading.hide();
-        showError('The demo is not available right now. <br/>We are working on ' +
-        'getting this back up and running soon.');
+        showError('Error with link. <br/>Try another link ' +
+        );
       });
   }
 
