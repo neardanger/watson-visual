@@ -3,7 +3,7 @@ declared-services:
     label: visual_recognition
     plan: free
 applications:
-- name: visual-recognition-demo
+- name: facial recognition
   command: npm start
   path: .
   memory: 512M
