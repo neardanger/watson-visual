@@ -1,3 +1,1 @@
-Pretty generic.
-
-Pretty much a fork of the IBM visual recognition for research
+Website built with watson visual API, give it a try!
